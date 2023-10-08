@@ -27,7 +27,7 @@ private AnchorPane info;
 String opcions[] = { "Personatges", "Jocs", "Consoles" };
 
 @Override
-public void initialize(URL url, ResourceBundle rb) {
+public void initialize(URL url, ResourceBundle rb) {            
 // Afegeix les opcions al ChoiceBox
 choiceBox.getItems().addAll(opcions);
 // Selecciona la primera opció
